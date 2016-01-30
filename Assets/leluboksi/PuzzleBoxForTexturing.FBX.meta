@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: 64650b7e7ed2d084d995cefbb5497a0d
+timeCreated: 1454141102
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BoxPuzzle_BunnyP
+    100002: BoxPuzzle_ClownP
+    100004: BoxPuzzle_OctopusP
+    100006: BoxPuzzle_PiggyP
+    100008: BoxPuzzle_SplotP
+    100010: //RootNode
+    100012: ToyPuzzleBox
+    100014: ToyPuzzleBoxLid
+    400000: BoxPuzzle_BunnyP
+    400002: BoxPuzzle_ClownP
+    400004: BoxPuzzle_OctopusP
+    400006: BoxPuzzle_PiggyP
+    400008: BoxPuzzle_SplotP
+    400010: //RootNode
+    400012: ToyPuzzleBox
+    400014: ToyPuzzleBoxLid
+    2300000: BoxPuzzle_BunnyP
+    2300002: BoxPuzzle_ClownP
+    2300004: BoxPuzzle_OctopusP
+    2300006: BoxPuzzle_PiggyP
+    2300008: BoxPuzzle_SplotP
+    2300010: ToyPuzzleBox
+    2300012: ToyPuzzleBoxLid
+    3300000: BoxPuzzle_BunnyP
+    3300002: BoxPuzzle_ClownP
+    3300004: BoxPuzzle_OctopusP
+    3300006: BoxPuzzle_PiggyP
+    3300008: BoxPuzzle_SplotP
+    3300010: ToyPuzzleBox
+    3300012: ToyPuzzleBoxLid
+    4300000: BoxPuzzle_PiggyP
+    4300002: BoxPuzzle_SplotP
+    4300004: BoxPuzzle_BunnyP
+    4300006: BoxPuzzle_ClownP
+    4300008: ToyPuzzleBoxLid
+    4300010: BoxPuzzle_OctopusP
+    4300012: ToyPuzzleBox
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

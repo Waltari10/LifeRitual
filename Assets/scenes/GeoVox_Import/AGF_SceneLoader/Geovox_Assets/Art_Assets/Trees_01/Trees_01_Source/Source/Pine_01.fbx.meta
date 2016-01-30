@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 2887464c2788f8c42a7f78ed5d987f73
+timeCreated: 1431388522
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Branches_01
+    100004: Branches_02
+    100006: Truck
+    100008: pPlane1
+    100010: pPlane2
+    100012: pPlane3
+    100014: Branches
+    100016: Collide
+    100018: LOD_01
+    100020: LOD_02
+    100022: Tree_01
+    100024: Collider
+    100026: Branches 1
+    100028: LOD_00
+    100030: Truck 1
+    100032: Branches 2
+    100034: Truck 2
+    100036: Trunk
+    100038: Trunk 1
+    100040: Trunk 2
+    400000: //RootNode
+    400002: Branches_01
+    400004: Branches_02
+    400006: Truck
+    400008: pPlane1
+    400010: pPlane2
+    400012: pPlane3
+    400014: Branches
+    400016: Collide
+    400018: LOD_01
+    400020: LOD_02
+    400022: Tree_01
+    400024: Collider
+    400026: Branches 1
+    400028: LOD_00
+    400030: Truck 1
+    400032: Branches 2
+    400034: Truck 2
+    400036: Trunk
+    400038: Trunk 1
+    400040: Trunk 2
+    2300000: //RootNode
+    2300002: Branches_01
+    2300004: Branches_02
+    2300006: Truck
+    2300008: pPlane1
+    2300010: pPlane2
+    2300012: pPlane3
+    2300014: Branches
+    2300016: Collide
+    2300018: LOD_01
+    2300020: LOD_02
+    2300022: Tree_01
+    2300024: Collider
+    2300026: Branches 1
+    2300028: Truck 1
+    2300030: Branches 2
+    2300032: Truck 2
+    2300034: Trunk
+    2300036: Trunk 1
+    2300038: Trunk 2
+    3300000: //RootNode
+    3300002: Branches_01
+    3300004: Branches_02
+    3300006: Truck
+    3300008: pPlane1
+    3300010: pPlane2
+    3300012: pPlane3
+    3300014: Branches
+    3300016: Collide
+    3300018: LOD_01
+    3300020: LOD_02
+    3300022: Tree_01
+    3300024: Collider
+    3300026: Branches 1
+    3300028: Truck 1
+    3300030: Branches 2
+    3300032: Truck 2
+    3300034: Trunk
+    3300036: Trunk 1
+    3300038: Trunk 2
+    4300000: Pine_01Shape
+    4300002: Truck
+    4300004: Branches_01
+    4300006: Branches_02
+    4300008: pPlane1
+    4300010: pPlane2
+    4300012: pPlane3
+    4300014: Branches
+    4300016: Collide
+    4300018: Tree_01
+    4300020: LOD_01
+    4300022: LOD_02
+    4300024: Collider
+    4300026: Truck
+    4300028: Branches
+    4300030: Truck
+    4300032: Branches
+    4300034: Trunk
+    4300036: Trunk
+    4300038: Trunk
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

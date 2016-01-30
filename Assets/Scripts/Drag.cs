@@ -3,10 +3,7 @@ using System.Collections;
 
 public class Drag : MonoBehaviour {
     
-    bool carrying;
-    GameObject carriedObject;
-    public float distance;
-    public float smooth;
+    GameObject[] carriedObjects;
 
 	// Use this for initialization
 	void Start () {
@@ -14,20 +11,7 @@ public class Drag : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (carrying)
-        {
-            carry(carriedObject);
-            checkDrop();
-        } else
-        {
-            pickup();
-        }
-    }
-
-    void carry (GameObject o)
-    {
-        o.transform.position = Vector3.Lerp (o.transform.position, Camera.main.transform.position + Camera.main.transform.forward * distance, Time.deltaTime * smooth);
-        o.transform.rotation = Quaternion.identity;
+        pickup();
     }
 
     void pickup()
@@ -42,13 +26,12 @@ public class Drag : MonoBehaviour {
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                Pickupable p = hit.collider.GetComponent<Pickupable>();
-                if (p != null)
+                hit.collider.GetComponent<GameObject>();
+
+                ToyBox toyBox = hit.collider.GetComponent<ToyBox>();
+                if (toyBox != null)
                 {
-                    carrying = true;
-                    carriedObject = p.gameObject;
-                    // p.GetComponent<Rigidbody>().isKinematic = true;
-                    p.GetComponent<Rigidbody>().useGravity = false;
+                    Destroy
                     
                 }
             }
@@ -65,8 +48,6 @@ public class Drag : MonoBehaviour {
     void dropObject()
     {
         carrying = false;
-       // carriedObject.GetComponent<Rigidbody>().isKinematic = false;
-        carriedObject.GetComponent<Rigidbody>().useGravity = true;
         carriedObject = null;
     }
 }

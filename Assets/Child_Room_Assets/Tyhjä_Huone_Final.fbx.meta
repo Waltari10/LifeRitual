@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 3e0d6a970e942ad4eb50dcf3a6b2368c
+timeCreated: 1454113213
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Huoneen_Lasi
+    100002: Lastenhuone_B
+    100004: Lastenhuone_Board
+    100006: Lastenhuone_Bot
+    100008: Lastenhuone_F
+    100010: Lastenhuone_Ikkunat
+    100012: Lastenhuone_Jalkalista
+    100014: Lastenhuone_L
+    100016: Lastenhuone_Saumat
+    100018: Lastenhuone_T
+    100020: Ovi
+    100022: R_Seina
+    100024: //RootNode
+    400000: Huoneen_Lasi
+    400002: Lastenhuone_B
+    400004: Lastenhuone_Board
+    400006: Lastenhuone_Bot
+    400008: Lastenhuone_F
+    400010: Lastenhuone_Ikkunat
+    400012: Lastenhuone_Jalkalista
+    400014: Lastenhuone_L
+    400016: Lastenhuone_Saumat
+    400018: Lastenhuone_T
+    400020: Ovi
+    400022: R_Seina
+    400024: //RootNode
+    2300000: Huoneen_Lasi
+    2300002: Lastenhuone_B
+    2300004: Lastenhuone_Board
+    2300006: Lastenhuone_Bot
+    2300008: Lastenhuone_F
+    2300010: Lastenhuone_Ikkunat
+    2300012: Lastenhuone_Jalkalista
+    2300014: Lastenhuone_L
+    2300016: Lastenhuone_Saumat
+    2300018: Lastenhuone_T
+    2300020: Ovi
+    2300022: R_Seina
+    3300000: Huoneen_Lasi
+    3300002: Lastenhuone_B
+    3300004: Lastenhuone_Board
+    3300006: Lastenhuone_Bot
+    3300008: Lastenhuone_F
+    3300010: Lastenhuone_Ikkunat
+    3300012: Lastenhuone_Jalkalista
+    3300014: Lastenhuone_L
+    3300016: Lastenhuone_Saumat
+    3300018: Lastenhuone_T
+    3300020: Ovi
+    3300022: R_Seina
+    4300000: Lastenhuone_Ikkunat
+    4300002: Lastenhuone_Bot
+    4300004: Lastenhuone_Board
+    4300006: Huoneen_Lasi
+    4300008: Lastenhuone_T
+    4300010: Lastenhuone_Saumat
+    4300012: Lastenhuone_L
+    4300014: Lastenhuone_F
+    4300016: Lastenhuone_B
+    4300018: R_Seina
+    4300020: Ovi
+    4300022: Lastenhuone_Jalkalista
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -40,7 +40,7 @@ public class BabyRoomLogic : MonoBehaviour {
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.distance < 1f)
+                if (hit.distance < 2f)
                 {
                     pickup(hit);
                     toybox(hit);

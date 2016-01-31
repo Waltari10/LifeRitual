@@ -4,7 +4,7 @@ using System.Collections;
 public class Basket : MonoBehaviour {
 
     public int itemCount = 0;
-    public bool levelComplete = false;
+    public bool levelComplete = true;
 
 	// Use this for initialization
 	void Start () {

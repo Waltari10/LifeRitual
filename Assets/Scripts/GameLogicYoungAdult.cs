@@ -13,13 +13,9 @@ public class GameLogicYoungAdult : MonoBehaviour {
     public GameObject gameOver;
     bool dead = false;
     float timeRemaining = 30;
+    public GameObject diary;
 
-
-    void Start()
-    {
-       // StartCoroutine(levelCompleteTimer());
-
-    }
+    
 
     void OnGUI()
     {
@@ -70,11 +66,17 @@ public class GameLogicYoungAdult : MonoBehaviour {
                     } else if (hit.collider.GetComponent<Transform>().name == "pistorasia") {
                         Death();
                     } else if (hit.collider.GetComponent<Transform>().name == "diary"){
-                        
+                        Diary();
                     }
                 }
             }
         }
+    }
+
+    public void Diary()
+    {
+        Canvas paivakirjaGO = GameObject.Find("paivakirja").GetComponent<Canvas>();
+        paivakirjaGO.enabled = true;
     }
 
 
@@ -111,13 +113,7 @@ public class GameLogicYoungAdult : MonoBehaviour {
             mBlur.enabled = false;
         timesDrunk--;
     }
-
-  /*  IEnumerator levelCompleteTimer()
-    {
-        yield return new WaitForSeconds(leveltime);
-        timeUp = true;
-        Debug.Log("level complete 1");
-    }*/
+    
 
     public void dagger()
     {

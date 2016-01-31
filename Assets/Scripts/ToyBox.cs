@@ -23,7 +23,6 @@ public class ToyBox : MonoBehaviour {
         if (clown && octopus && bunny)
         {
             complete = true;
-
         }
 
     }

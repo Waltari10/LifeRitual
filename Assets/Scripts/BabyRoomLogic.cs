@@ -2,12 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class BabyRoomLogic : MonoBehaviour {
 
     List<Transform> carriedObjects;
     private bool ToyBoxComplete;
-
+    public GameObject gameOver;
+    private bool octopus;
+    private bool clown;
+    private bool bunny;
+    private bool dead = false;
 
 	// Use this for initialization
 	void Start () {
@@ -15,8 +20,12 @@ public class BabyRoomLogic : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-        interact();
+	void Update ()
+    {
+        if (!dead)
+        {
+            interact();
+        }
     }
 
     public void interact()
@@ -36,18 +45,43 @@ public class BabyRoomLogic : MonoBehaviour {
                     pickup(hit);
                     toybox(hit);
                     powerOutlet(hit);
+                    soittoRasia(hit);
+                    tutti(hit);
                 }
             }
         }
      }
 
+    public void tutti(RaycastHit hit)
+    {
+        if (hit.collider.GetComponent<Transform>().name == "tutti")
+        {
+            SoundManager.Instance.PlayPacifierSucking(transform.position);
+        }
+    }
+
+    public void soittoRasia(RaycastHit hit)
+    {
+        if (hit.collider.GetComponent<Transform>().name == "soittorasia")
+        {
+            SoundManager.Instance.PlayTuutuLaulu();
+        }
+
+    }
+
     public void powerOutlet(RaycastHit hit)
     {
         if (hit.collider.GetComponent<Transform>().name == "PowerOutlet")
         {
-            Debug.Log("asdfasdf");
+            Death();
         }
 
+    }
+
+    public void Death()
+    {
+        gameObject.GetComponent<FirstPersonController>().enabled = false;
+        Instantiate(gameOver);
     }
 
     public void pickup(RaycastHit hit)
@@ -67,15 +101,18 @@ public class BabyRoomLogic : MonoBehaviour {
             if (t.bunny == false && listContains("BoxPuzzle_BunnyP"))
             {
                 t.bunny = true;
-                getFromList("BoxPuzzle_BunnyP").gameObject.transform.position = new Vector3(-0.016f, 0.3273f, 2.8f);
+                bunny = true;
+                getFromList("BoxPuzzle_BunnyP").gameObject.transform.position = new Vector3(-0.016f, 0.3273f, 2.8f) * 1.5f;
                 getFromList("BoxPuzzle_BunnyP").gameObject.SetActive(true);
+                Debug.Log("toybox2");
             }
 
             if (t.octopus == false && listContains("BoxPuzzle_OctopusP"))
             {
                 t.octopus = true;
+                octopus = true;
 
-                getFromList("BoxPuzzle_OctopusP").gameObject.transform.position = new Vector3(-0.028f, 0.328f, 2.6126f);
+                getFromList("BoxPuzzle_OctopusP").gameObject.transform.position = new Vector3(-0.028f, 0.328f, 2.6126f) * 1.5f;
 
                 getFromList("BoxPuzzle_OctopusP").gameObject.SetActive(true);
             }
@@ -83,14 +120,13 @@ public class BabyRoomLogic : MonoBehaviour {
             if (t.clown == false && listContains("BoxPuzzle_ClownP"))
             {
                 t.clown = true;
+                clown = true;
 
-                getFromList("BoxPuzzle_ClownP").gameObject.transform.position = new Vector3(-0.187f, 0.3264f, 2.6399f);
+                getFromList("BoxPuzzle_ClownP").gameObject.transform.position = new Vector3(-0.187f, 0.3264f, 2.6399f) * 1.5f;
 
                 getFromList("BoxPuzzle_ClownP").gameObject.SetActive(true);
             }
-
-            if (t.complete)
-                ToyBoxComplete = true;
+            
         } 
     }
 
@@ -119,26 +155,11 @@ public class BabyRoomLogic : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "DoorBaby") { 
-            Debug.Log("asdfasdfasdf");
-            if (ToyBoxComplete)
+        if (other.tag == "Door") { 
+            if (octopus && bunny && clown)
             {
-                //ChangeScene
+                SceneManager.LoadScene("YoungAdult");
             }
          }
     }
-
-    /*void death()
-    {
-        StartCoroutine(death());
-    }
-
-    IEnumerator death ()
-    {
-
-        yield return new WaitForSeconds(5);
-
-        SceneManager.LoadScene();
-
-    }*/
 }

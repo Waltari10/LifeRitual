@@ -1,0 +1,119 @@
+fileFormatVersion: 2
+guid: 9333112b3e9f39a44bfb34a74fbc0d48
+timeCreated: 1454187272
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: balleriina
+    100002: diary
+    100004: kori
+    100006: //RootNode
+    100008: laatikko
+    100010: lehti
+    100012: pistorasia
+    100014: puhelin
+    100016: soittorasia
+    100018: tutti
+    400000: balleriina
+    400002: diary
+    400004: kori
+    400006: //RootNode
+    400008: laatikko
+    400010: lehti
+    400012: pistorasia
+    400014: puhelin
+    400016: soittorasia
+    400018: tutti
+    2300000: balleriina
+    2300002: diary
+    2300004: kori
+    2300006: laatikko
+    2300008: lehti
+    2300010: pistorasia
+    2300012: puhelin
+    2300014: soittorasia
+    2300016: tutti
+    3300000: balleriina
+    3300002: diary
+    3300004: kori
+    3300006: laatikko
+    3300008: lehti
+    3300010: pistorasia
+    3300012: puhelin
+    3300014: soittorasia
+    3300016: tutti
+    4300000: kori
+    4300002: pistorasia
+    4300004: puhelin
+    4300006: soittorasia
+    4300008: balleriina
+    4300010: tutti
+    4300012: diary
+    4300014: lehti
+    4300016: laatikko
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

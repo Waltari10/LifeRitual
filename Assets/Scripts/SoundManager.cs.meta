@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6c228eb7f15b822418f4798559818882
+timeCreated: 1454168287
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Source: {instanceID: 0}
+  - BirdSing: {fileID: 8300000, guid: 8fd2ccf36df66984fa836c76e26c0d25, type: 3}
+  - BirdSing2: {fileID: 8300000, guid: a765e9b380e07b340ba8f768e9b78bd6, type: 3}
+  - BirdSing3: {fileID: 8300000, guid: 8032bf76f5326e845b11c4bfa9d055e9, type: 3}
+  - BirdSing4: {fileID: 8300000, guid: 756a07ac08198c44baca4852eab24e0a, type: 3}
+  - BirdSing5: {fileID: 8300000, guid: f638e7593c334b64288be368245f377c, type: 3}
+  - BirdSing6: {fileID: 8300000, guid: 311ed3dc357c6d649ac12c7cc46cc108, type: 3}
+  - BabyCry: {fileID: 8300000, guid: 4118175220f662f47a1b499c92a29a8a, type: 3}
+  - BabyCry2: {fileID: 8300000, guid: fc6748fdd047b144eae05268adf5f640, type: 3}
+  - BabyCry3: {fileID: 8300000, guid: c40807fafd56cd64c8775e468d4ffeb2, type: 3}
+  - PaciferSucking: {fileID: 8300000, guid: 56e0ae263a8d4644ab3cd53baf17a323, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

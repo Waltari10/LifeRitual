@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: c30235b75ac61114f8250f33e5d4a02c
+timeCreated: 1454162135
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: L_Box_BotLarge_
+    100002: L_Box_BotTop_
+    100004: L_Box_TopLarge_
+    100006: L_Box_TopLocker_
+    100008: L_Face_BotLarge_
+    100010: L_Face_BotTop_
+    100012: L_Face_TopLarge_
+    100014: L_Face_TopLocker_
+    100016: L_Handle_BotLarge_
+    100018: L_Handle_BotTop_
+    100020: L_Handle_TopLarge_
+    100022: L_Handle_TopLocker_
+    100024: R_Box_BotLarge_
+    100026: R_Box_BotTop_
+    100028: R_Box_TopLarge_
+    100030: R_Box_TopLocker_
+    100032: R_Face_BotLarge_
+    100034: R_Face_BotTop_
+    100036: R_Face_TopLarge_
+    100038: R_Face_TopLocker_
+    100040: R_Handle_BotLarge_
+    100042: R_Handle_BotTop_
+    100044: R_Handle_TopLarge_
+    100046: R_Handle_TopLocker_
+    100048: Shelf
+    100050: //RootNode
+    100052: Shelves
+    400000: L_Box_BotLarge_
+    400002: L_Box_BotTop_
+    400004: L_Box_TopLarge_
+    400006: L_Box_TopLocker_
+    400008: L_Face_BotLarge_
+    400010: L_Face_BotTop_
+    400012: L_Face_TopLarge_
+    400014: L_Face_TopLocker_
+    400016: L_Handle_BotLarge_
+    400018: L_Handle_BotTop_
+    400020: L_Handle_TopLarge_
+    400022: L_Handle_TopLocker_
+    400024: R_Box_BotLarge_
+    400026: R_Box_BotTop_
+    400028: R_Box_TopLarge_
+    400030: R_Box_TopLocker_
+    400032: R_Face_BotLarge_
+    400034: R_Face_BotTop_
+    400036: R_Face_TopLarge_
+    400038: R_Face_TopLocker_
+    400040: R_Handle_BotLarge_
+    400042: R_Handle_BotTop_
+    400044: R_Handle_TopLarge_
+    400046: R_Handle_TopLocker_
+    400048: Shelf
+    400050: //RootNode
+    400052: Shelves
+    2300000: L_Box_BotLarge_
+    2300002: L_Box_BotTop_
+    2300004: L_Box_TopLarge_
+    2300006: L_Box_TopLocker_
+    2300008: L_Face_BotLarge_
+    2300010: L_Face_BotTop_
+    2300012: L_Face_TopLarge_
+    2300014: L_Face_TopLocker_
+    2300016: L_Handle_BotLarge_
+    2300018: L_Handle_BotTop_
+    2300020: L_Handle_TopLarge_
+    2300022: L_Handle_TopLocker_
+    2300024: R_Box_BotLarge_
+    2300026: R_Box_BotTop_
+    2300028: R_Box_TopLarge_
+    2300030: R_Box_TopLocker_
+    2300032: R_Face_BotLarge_
+    2300034: R_Face_BotTop_
+    2300036: R_Face_TopLarge_
+    2300038: R_Face_TopLocker_
+    2300040: R_Handle_BotLarge_
+    2300042: R_Handle_BotTop_
+    2300044: R_Handle_TopLarge_
+    2300046: R_Handle_TopLocker_
+    2300048: Shelf
+    3300000: L_Box_BotLarge_
+    3300002: L_Box_BotTop_
+    3300004: L_Box_TopLarge_
+    3300006: L_Box_TopLocker_
+    3300008: L_Face_BotLarge_
+    3300010: L_Face_BotTop_
+    3300012: L_Face_TopLarge_
+    3300014: L_Face_TopLocker_
+    3300016: L_Handle_BotLarge_
+    3300018: L_Handle_BotTop_
+    3300020: L_Handle_TopLarge_
+    3300022: L_Handle_TopLocker_
+    3300024: R_Box_BotLarge_
+    3300026: R_Box_BotTop_
+    3300028: R_Box_TopLarge_
+    3300030: R_Box_TopLocker_
+    3300032: R_Face_BotLarge_
+    3300034: R_Face_BotTop_
+    3300036: R_Face_TopLarge_
+    3300038: R_Face_TopLocker_
+    3300040: R_Handle_BotLarge_
+    3300042: R_Handle_BotTop_
+    3300044: R_Handle_TopLarge_
+    3300046: R_Handle_TopLocker_
+    3300048: Shelf
+    4300000: Shelf
+    4300002: L_Handle_TopLocker_
+    4300004: L_Face_TopLocker_
+    4300006: L_Box_TopLocker_
+    4300008: R_Handle_TopLocker_
+    4300010: R_Face_TopLocker_
+    4300012: R_Box_TopLocker_
+    4300014: R_Handle_TopLarge_
+    4300016: R_Face_TopLarge_
+    4300018: R_Box_TopLarge_
+    4300020: L_Handle_TopLarge_
+    4300022: L_Face_TopLarge_
+    4300024: L_Box_TopLarge_
+    4300026: L_Handle_BotTop_
+    4300028: L_Face_BotTop_
+    4300030: L_Box_BotTop_
+    4300032: R_Handle_BotTop_
+    4300034: R_Face_BotTop_
+    4300036: R_Box_BotTop_
+    4300038: R_Handle_BotLarge_
+    4300040: R_Face_BotLarge_
+    4300042: R_Box_BotLarge_
+    4300044: L_Handle_BotLarge_
+    4300046: L_Face_BotLarge_
+    4300048: L_Box_BotLarge_
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
